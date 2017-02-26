@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "private": true,
+  "name": "simple-http-server",
+  "description": "Simple Http Server",
+  "license": "MIT",
+  "authors": [
+    "demingongo"
+  ],
+  "dependencies": {
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -a 0.0.0.0 -p 8888",
+    "pretest": "npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
